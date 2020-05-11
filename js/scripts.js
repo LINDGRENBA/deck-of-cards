@@ -1,12 +1,23 @@
-let suits = ['clubs', 'hearts', 'spades', 'diamonds'];
-let cards = [2, 3, 4, 5, 6, 7, 8, 9, 10, 'Jack', 'Queen', 'King', 'Ace'];
-let deck = [];
+$(document).ready(function() {
+	$("button").click(function() {
 
-suits.forEach(function(suit) {
-	cards.forEach(function(card) {
+		let suits = ['clubs', 'hearts', 'spades', 'diamonds'];
+		let cards = [2, 3, 4, 5, 6, 7, 8, 9, 10, 'Jack', 'Queen', 'King', 'Ace'];
+		let deck = [];
+
+		suits.forEach(function(suit) {
+		cards.forEach(function(card) {
   	deck.push(card + " of " + suit);
   });
 });
+
+		$(".cards").text(deck);
+
+	});
+});
+
+
+
 
 console.log(deck);
 

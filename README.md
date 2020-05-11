@@ -17,7 +17,7 @@ The purpose of this project is to use javascript, jQuery and a forEach loop with
 
 ## Known Bugs
 
-At this time there is no user interface for this project. 
+At this time there are no known bugs. Require update for user interface.
 
 ## Support and contact details
 
